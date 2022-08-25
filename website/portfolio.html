@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <title>Checkpoint 1</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="menu">
+          <a href="portfolio.html">Home</a>
+          <a href="https://github.com/remisam">GitHub</a>
+          <a href="https://www.linkedin.com/in/remisamson/">LinkedIn</a>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <!-- First banner with title, description, avatar and image desktop -->   
+
+      <section class="firstBanner">
+        <h1>MY FIRST CHECKPOINT OF MY SKILLS with HTML, CSS, JS</h1>
+        <h2>I started learning to code since 2022 and I love what I do. <span id="avatar">Click on the avatar !</span></h2>
+        <img src="image/avatar-bis.png" class="avatar" alt="my-avatar" />
+      </section>
+      
+      <section class="introduction">
+        <figure class="desktop">
+          <img src="image/desktop.svg" alt="desktop" />
+        </figure>
+      </section>
+
+      <!-- Second banner with description of my name and my presentation -->
+      <section class="presentation">
+        <div class="description color-bg">
+          <h2>Hi, I’m <span id="name">Rémi</span>. Nice to meet you.</h2>
+          <p>I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time. <span id="btn">Try the button below !</span></p>
+          <button id="profil-btn">NEW PROFIL</button>
+        </div>
+
+        <!-- Bloc of list of skill front end and back end -->
+        <div class="skills">
+          <div class="column">
+            <figure class="skill">
+              <img src="image/frontend.svg" alt="frontend" />
+              <h2>Back-end Developer</h2>
+              <p>I like to code things from scratch.</p>
+              <h2 class="color-text">Languages I speak :</h2>
+              <ul id="back-lang-list">
+                <li>MySQL</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+              </ul>
+              <input id="back-lang-input" type="text" placeholder="Next to learn" />
+              <button id="back-lang-btn">ADD</button>
+              <h2 class="color-text">Dev Tools :</h2>
+              <ul id="back-tools-list">
+                <li>VS Code</li>
+                <li>Thunderclient</li>
+              </ul>
+              <input id="back-tools-input" type="text" placeholder="Next to learn"/>
+              <button id="back-tools-btn">ADD</button>
+            </figure>
+          </div>
+          <div class="column">
+            <figure class="skill">
+              <img src="image/frontend.svg" alt="frontend" />
+              <h2>Front-end Developer</h2>
+              <p>I love bringing ideas to life.</p>
+              <h2 class="color-text">Languages I speak :</h2>
+              <ul id="front-lang-list">
+                <li>HTML</li>
+                <li>CSS/SCSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Python</li>
+              </ul>
+              <input id="front-lang-input" type="text" placeholder="Next to learn" />
+              <button id="front-lang-btn">ADD</button>
+              <h2 class="color-text">Dev Tools :</h2>
+              <ul id="front-dev-tools">
+                <li>Click for reading</li>
+                <li>Click for reading</li>
+                <li>Click for reading</li>
+                <li>Click for reading</li>
+              </ul>
+              <button id="front-tools-btn">CLICK HERE</button>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Third banner with list of my projects -->
+      <section class="projects">
+        <div class="heading">
+          <h2>My Recent Projects</h2>
+          <p>The best way of learning is practising.</p>
+        </div>
+        <div class="contents">
+          <div class="box">
+            <img src="https://mattfarley.ca/img/logos/basin.svg" alt="logo-manue" />
+            <p><span id="date">AUGUST/SEPT 2022.</span> Creation of a Mobile App, which identify the artisans and create workshops events for the locals
+              of a region in
+              France. With React and Express.js.</p>
+            <a class="disabled">In development</a>
+          </div>
+          <div class="box">
+            <img src="image/hackathon.png" alt="cosmoconie" />
+            <p><span id="date">AUGUST 2022.</span> Implementation with React and Express.js - in 72 hours - of a website promoting an imaginary cult inspired by myths from cosmic egg.
+            </p>
+            <a href="https://github.com/remisam">Cosmoconie</a>
+          </div>
+          <div class="box">
+            <img src="image/hackathon.png" alt="bandidos" />
+            <p><span id="date">JULY 2022.</span> Implementation with React and Express.js - in 30 hours - of a website offering to the cowboys all existing wanted notices.
+            </p>
+            <a href="https://github.com/remisam">Bandidos</a>
+          </div>
+          <div class="box">
+            <img src="image/logo-declin.png" class="logo-declin" alt="logo-declin-des-ames" />
+            <p><span id="date">JUNE/JULY 2022.</span> Implementation with React of a game using the series "The book where you're the hero" as a source of inspiration.
+            </p>
+            <a href="https://github.com/remisam">Le Déclin des Âmes</a>
+          </div>
+          <div class="box">
+            <img src="image/hackathon.png" alt="star-love" />
+            <p><span id="date">JUNE 2022.</span> Implementation with React - in 30 hours - of a dating website from a Star Wars API.
+            </p>
+            <a href="https://github.com/remisam">Meet N Sith</a>
+          </div>
+          <div class="box">
+            <img src="image/logo-elementaire.png" class="logo-elementaire" alt="logo-cest-elementaire" />
+            <p><span id="date">MAY 2022.</span> Implementation of a game-enquiry website in HTML/CSS.
+            </p>
+            <a href="https://github.com/remisam">C'est Élémentaire</a>
+          </div>
+        </div>
+      </section>      
+    </main>
+    <footer class="presentation">
+      <div class="description color-bg">
+        <img src="image/logo-white.svg" alt='logo-white' />
+        <h2>Living, learning, & leveling up one day at a time.</h2>
+      </div>
+    </footer>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
